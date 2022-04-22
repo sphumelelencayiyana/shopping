@@ -1,270 +1,312 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme The Band</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
-  <title>Hello, world!</title>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+      <a class="navbar-brand" href="#myPage">Logo</a>
     </div>
-  </nav>
-
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://media.istockphoto.com/photos/business-man-pushing-large-stone-up-to-hill-business-heavy-tasks-and-picture-id825383494?k=20&m=825383494&s=612x612&w=0&h=tEqZ5HFZcM3lmDm_cmI7hOeceiqy9gYrkyLTTkrXdY4=" height="500" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div> 
-      </div>
-      <div class="carousel-item">
-        <img src="https://media.istockphoto.com/photos/sisyphus-metaphore-silhouette-of-businessman-pushing-heavy-stone-up-picture-id909048696?k=20&m=909048696&s=612x612&w=0&h=auKVRw0Hi1FjEkdmiRLIETO922NIbM1gZnZ-4xXDOrg=" height="500" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src= height="500" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-
-
-  <h1 class="text-center mt-5">Man Climbing Mountain</h1>
-
-  <div class="container">
-    <div class=" row">
-      <div class="col-md-4 mt-3">
-        <div class="card" style="width: 18rem;">
-          <img
-            src="https://thumbs.dreamstime.com/b/photo-dark-key-man-climbing-mountain-illuminated-behind-sun-climbs-up-160933381.jpg"
-            class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class=" row">
-      <div class="col-md-4 mt-3">
-        <div class="card" style="width: 18rem;">
-          <img
-            src="data:image/jpeg;base64,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"
-            class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class=" row">
-      <div class="col-md-4 mt-3">
-        <div class="card" style="width: 18rem;">
-          <img
-            src="https://media.istockphoto.com/photos/man-climbing-up-to-the-top-of-a-mountain-picture-id1168035477?k=20&m=1168035477&s=170667a&w=0&h=d8RBOf8wC6L-vBz1LRrX5ZlIJXLBSveAwsFQIrAJ30o="
-            class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class=" row">
-      <div class="col-md-4 mt-3">
-        <div class="card" style="width: 18rem;">
-          <img src="https://t4.ftcdn.net/jpg/03/47/17/29/360_F_347172973_K9zLomjUHxpNnNYy7mX3aMsEqC4hesYp.jpg"
-            class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#band">BAND</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Extras</a></li>
+            <li><a href="#">Media</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
     </div>
   </div>
+</nav>
 
- <!-- Theme Made By www.w3schools.com - No Copyright -->
- <title>Bootstrap Theme Company Page</title>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
- 
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-</head>
-<body>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://media.istockphoto.com/photos/business-man-pushing-large-stone-up-to-hill-business-heavy-tasks-and-picture-id825383494?k=20&m=825383494&s=612x612&w=0&h=tEqZ5HFZcM3lmDm_cmI7hOeceiqy9gYrkyLTTkrXdY4=" alt="New York" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>South Africa</h3>
+          <p>The atmosphere in South Africa is lorem ipsum.</p>
+        </div>      
+      </div>
 
-<div class="jumbotron text-center">
- <h1>Company</h1> 
- <p>We specialize in blablabla</p> 
- <form class="form-inline">
-   <div class="input-group">
-     <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-     <div class="input-group-btn">
-       <button type="button" class="btn btn-danger">Subscribe</button>
-     </div>
-   </div>
- </form>
+      <div class="item">
+        <img src="https://media.istockphoto.com/photos/sisyphus-metaphore-silhouette-of-businessman-pushing-heavy-stone-up-picture-id909048696?k=20&m=909048696&s=612x612&w=0&h=auKVRw0Hi1FjEkdmiRLIETO922NIbM1gZnZ-4xXDOrg=" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Kwajali</h3>
+          <p>Thank you, Kwajali - A night we won't forget.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+
+        <img src="https://thumbs.dreamstime.com/b/caucasian-businessman-pulling-rock-cliff-picture-climbing-shot-sunrise-time-107677820.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
 </div>
 
-<!-- Container (About Section) -->
-<div class="container-fluid">
- <div class="row">
-   <div class="col-sm-8">
-     <h2>About Company Page</h2>
-     <h4>Lorem ipsum..</h4>      
-     <p>Lorem ipsum..</p>
-     <button class="btn btn-default btn-lg">Get in Touch</button>
-   </div>
-   <div class="col-sm-4">
-     <span class="glyphicon glyphicon-signal logo"></span>
-   </div>
- </div>
-</div>
-
-<div class="container-fluid bg-grey">
- <div class="row">
-   <div class="col-sm-6">
-     <span class="glyphicon glyphicon-globe logo"></span>
-   </div>
-   <div class="col-sm-8">
-     <h2>Our Values</h2>
-     <h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4>      
-     <p><strong>VISION:</strong> Our vision Lorem ipsum..</p>
-   </div>
- </div>
-</div>
-
-<!-- Container (Services Section) -->
-<div class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3>THE GYM</h3>
+  <p><em>We love GYM!</em></p>
+  <p>Going to the gym every day can help improve your cardiovascular system, strengthen your muscles, help you maintain your weight, boost your mental health and decrease the odds that you'll develop other health conditions</p>
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="https://thumbs.dreamstime.com/b/photo-dark-key-man-climbing-mountain-illuminated-behind-sun-climbs-up-160933381.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Guitarist and Lead Vocalist</p>
+        <p>Loves long walks on the beach</p>
+        <p>Member since 1988</p>
+      </div>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="https://media.istockphoto.com/photos/man-climbing-up-to-the-top-of-a-mountain-picture-id1168035477?k=20&m=1168035477&s=170667a&w=0&h=d8RBOf8wC6L-vBz1LRrX5ZlIJXLBSveAwsFQIrAJ30o=" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Drummer</p>
+        <p>Loves drummin'</p>
+        <p>Member since 1988</p>
+      </div>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p class="text-center"><strong>Name</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="https://t4.ftcdn.net/jpg/03/47/17/29/360_F_347172973_K9zLomjUHxpNnNYy7mX3aMsEqC4hesYp.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2005</p>
+      </div>
     </div>
   </div>
 </div>
 
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">TOUR DATES</h3>
+    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+    <ul class="list-group">
+      <li class="list-group-item"> February<span class="label label-danger">Sold Out!</span></li>
+      <li class="list-group-item"> March<span class="label label-danger">Sold Out!</span></li> 
+      <li class="list-group-item">November <span class="badge">3</span></li> 
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img class ="image" src="https://www.zoomnews.in/uploads_2019/newses/hosla_1260913314_sm.webp" alt="Port Shepstone" width="400" height="300">
+          <p><strong>Port Shepstone</strong></p>
+          <p>Friday 27 February 2022</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img class ="image"src="https://miro.medium.com/max/800/1*ciVlblfYmqfRDZIOztLSdQ.jpeg" alt="Marget" width="400" height="300">
+          <p><strong>Marget</strong></p>
+          <p>Saturday 28 March 2022</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img class = "image" src= "https://i0.wp.com/jonsrennie.com/wp-content/uploads/2017/06/58733825_l.jpg?resize=1218%2C548&ssl=1" alt="Weaz" width="550" height="400">
+          <p><strong>Weza</strong></p>
+          <p>Sunday 29 November 2022</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+    </div>
+  </div>
   
-  
- 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, 1000 per person</label>
+              <input type="number" class="form-control" id="psw" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span>Tickets, 700 per person</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+              <button type="submit" class="btn btn-block">Pay 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Fan? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>South Africa</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +27 062 578 3195</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email:sphumelele762@gmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">From The KZN</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Sdodo</a></li>
+    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
+    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Sphumelele Ncayiyana, Manager</h2>
+      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Chandler Bing, Guitarist</h2>
+      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>Peter Griffin, Bass player</h2>
+      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="map.jpg" class="img-responsive" style="width:100%">
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p> 
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
 
 </body>
-
 </html>
